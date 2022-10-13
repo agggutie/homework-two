@@ -24,6 +24,7 @@ body {
 }
 
 nav {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,9 +35,11 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   min-height: 60px;
-  width: 100%;
+  width: 50%;
 }
 nav a {
+  font-size: 14px;
+  font-weight: bold;
   color: #D0CFCD;
   text-decoration: none;
 }

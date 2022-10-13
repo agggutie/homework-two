@@ -1,0 +1,98 @@
+.greenSpace{
+    width: 100%;
+    height: 795px;
+    background-color: #899774;
+
+
+    .bunny{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+
+        img{
+            height: 90%;
+            width: 300px;
+        }
+    }
+
+    .pedal{
+        padding-bottom: 15px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            letter-spacing: 2px;
+            font-size: 18px;
+            color: #A23D3B;
+        }
+    }
+
+    .bikepacking-com{
+        margin: 0 auto;
+        word-spacing: 2px;
+        width: 66%;
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+
+    .social{
+        padding-top: 35px;
+        padding-bottom: 45px;
+        width: 50%;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+
+    .footerLinks{
+        margin: 0 auto;
+        display: flex;
+        width: 90%;
+        height: 200px;
+        padding-bottom: 25px;
+
+        .pLinks{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .black{
+                font-size: 12px;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+
+            .red{
+                color: #A23D3B;
+                font-size: 12px;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        p{
+            color: #42453C;
+            font-weight: bold;
+        }
+    }
+}

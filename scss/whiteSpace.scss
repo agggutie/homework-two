@@ -1,0 +1,109 @@
+.whiteSpace{
+    width: 100%;
+    height: min-content;
+    background-color: #F2F1ED;
+
+    .h2Wrapper{
+        padding-top: 75px;
+        width: 100%;
+        height: min-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-size: 12px;
+        }
+    }
+
+    .image-wrapper{
+        width: 100%;
+        height: min-content;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 88%;
+            height: 150px;
+        }
+    }
+
+
+
+    .pWrap{
+        margin: 0 auto;
+        width: 50%;
+        padding-bottom: 50px;
+
+        p{
+            color: #252730;
+        }
+    }
+
+   
+    .bikePacking{
+        width: 100%;
+        height: min-content;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        .bikePImg{
+            width: 25%;
+            height: 100%;
+        }
+
+
+    }
+
+    .fourImageRow{
+        margin: 0 auto;
+        width: 90%;
+        height: 300px;
+        display: flex;
+        padding-bottom: 50px;
+
+        .four{
+            width: 25%;
+            height: 100%;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+
+        header-p-wrapper{
+            width: 400px;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        p{
+            color: #989A95;
+        }
+
+    }
+
+    .sponsorRow{
+        margin: 0 auto;
+        padding-bottom: 80px;
+        width: 85%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+
+        .sponsor{
+            width: 15%;
+        }
+
+    }
+}
